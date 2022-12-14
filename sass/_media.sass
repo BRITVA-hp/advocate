@@ -1,0 +1,55 @@
+@media screen and ( max-width: 1300px )
+    .main
+        background: url(../img/main/imgC.png) no-repeat calc( 50% + 350px ) bottom, url(../img/main/bg.jpg) no-repeat center/cover
+        &__title
+            font-size: 40px
+        &__box
+            max-width: 680px
+        &__text
+            font-size: 20px
+    
+    .header
+        &__button
+            font-size: 16px
+            width: 258px
+            padding: 16px 0
+        &__logo
+            grid-gap: 12px
+            &__text
+                font-size: 12px
+            &__img
+                width: 28px
+        &__ul
+            grid-gap: 40px
+        &__li
+            a
+                font-size: 16px
+
+@media screen and ( max-width: 991px )
+    .main
+        background: url(../img/main/imgM.png) no-repeat calc( 50% + 250px ) bottom, url(../img/main/bg.jpg) no-repeat center/cover
+        padding-top: 20px
+        padding-bottom: 20px
+        &__box
+            max-width: 470px
+        &__title
+            font-size: 28px
+            margin-bottom: 30px
+        &__text
+            font-size: 14px
+        &__button
+            font-size: 14px
+            padding: 18px 0
+            border-radius: 15px
+            width: 280px
+
+    .menu
+        display: flex
+
+    .header
+        &__burger
+            display: flex
+        &__button, nav
+            display: none
+
+// @media screen and ( max-width: 767px )

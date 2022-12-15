@@ -29,93 +29,88 @@
             position: absolute
             top: 60px
             right: 80px
-        &__text
-            max-width: 400px
-        &__title
-            color: #fff
-            margin-bottom: 60px
-        &__dialog
-            border-radius: 60px
-            position: relative
-            background: url(../img/modal/img.png) no-repeat right bottom, #2F5F5D
-            padding: 40px 95px 300px
+    &-cons
+        &__form
             width: 100%
-            max-width: 800px
-            color: #fff
-    &-main
-        &__button
-            width: 100%
-            max-width: 268px
-        &__checkbox
-            display: none
-            &:checked + .modal-main__ok
-                background: url(../img/modal/ok.png) no-repeat center/contain, #fff  
-        &__ok
-            position: absolute
-            top: 0
-            left: 0
-            width: 24px
-            height: 24px
-            background: #FFFFFF
-            border: 1px solid #000000
-            border-radius: 4px
-        &__box
-            display: flex
-            flex-wrap: wrap
-            justify-content: space-between
-            margin-bottom: 35px
-        &__agree
-            cursor: pointer
-            display: block
-            position: relative
-            padding-left: 42px
-            margin-bottom: 46px
-            &__text
-                font-weight: 500
-                font-size: 14px
+            max-width: 565px
+            &__polit
+                display: block
+                position: relative
+                padding-left: 38px
+                cursor: pointer
+                padding-top: 4px
+                &__text
+                    font-size: 14px
+                    line-height: 120%
+                    a
+                        color: #2E9EF4
+                &__input-inner
+                    display: none
+                    &:checked + .modal-cons__form__polit__ok
+                        background: url(../img/modal/cons/okS.png) no-repeat center, #2E9EF4
+                &__ok
+                    position: absolute
+                    left: 0
+                    top: 0
+                    width: 24px
+                    height: 24px
+                    border: 2px solid #2E9EF4
+                    border-radius: 5px
+            &__button
+                width: 100%
+                margin-bottom: 20px
+            &__box
+                margin-bottom: 38px
+            &__input-group
+                margin-bottom: 15px
+                &:last-child
+                    margin-bottom: 0
+            &__title
+                text-align: center
+                margin: auto
+                margin-bottom: 35px
+                font-size: 32px
                 line-height: 120%
-                text-shadow: 0px 3.27986px 40.9982px rgba(0, 0, 0, 0.05)
-                max-width: 290px
-        &__input-group
-            max-width: 400px
-        &__text
-            font-weight: 500
-            font-size: 18px
-            line-height: 120%
-            text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05)
-            max-width: 568px
-            margin-bottom: 40px
-        &__title
-            color: #fff
-            margin-bottom: 60px
-        &__dialog
-            border-radius: 60px
-            position: relative
-            background: url(../img/modal/img.png) no-repeat right bottom, #2F5F5D
-            padding: 76px 100px 95px
-            width: 100%
-            max-width: 1040px
-            color: #fff
-        &__close
-            position: absolute
-            top: 85px
-            right: 125px
-    &-video
-        &__container
-            position: relative
-            padding: 0
-        &__dialog
-            position: relative
-            z-index: 1
-        &__video
+                font-weight: bold
+                max-width: 345px
+        &__row
+            grid-gap: 70px
+        &__ok
             display: block
-            margin: auto
-            max-width: 100%
-            height: auto
-            max-height: 100vh
+            width: 42px
+            min-width: 42px
+            height: 42px
+            border-radius: 50%
+            background: url(../img/modal/cons/ok.png) no-repeat center, #2E9EF4
+        &__li
+            font-size: 20px
+            line-height: 120%
+            margin-bottom: 20px
+            display: flex
+            align-items: center
+            grid-gap: 20px
+            &:last-child
+                margin-bottom: 0
+        &__box
+            max-width: 516px
+            &__img
+                display: block
+                margin-bottom: 25px
+        &__title
+            font-weight: bold
+            text-align: center
+            margin-bottom: 45px
+            font-size: 50px
+            line-height: 120%
+        &__dialog
+            background: #FFFFFF
+            border-radius: 20px
+            position: relative
+            padding: 40px 110px
+            width: 100%
+            max-width: 1396px
         &__close
             position: absolute
-            z-index: 2
-            top: 20px
-            right: 20px
+            top: 40px
+            right: 34px
             cursor: pointer

@@ -29,6 +29,114 @@
             position: absolute
             top: 60px
             right: 80px
+    &-price
+        text-align: center
+        &__img
+            display: none
+        &__polit
+            display: block
+            position: relative
+            cursor: pointer
+            padding-left: 38px
+            padding-top: 4px
+            &__ok
+                display: block
+                position: absolute
+                left: 0
+                top: 0
+                width: 25px
+                height: 25px
+                border: 2px solid #2E9EF4
+                border-radius: 5px
+            &__input-inner
+                display: none
+                &:checked + .modal-price__polit__ok
+                    background: url(../img/modal/price/ok.png) no-repeat center, #2E9EF4
+            &__text
+                font-size: 14px
+                line-height: 120%
+                text-align: left
+                a
+                    color: #2E9EF4
+        &__button
+            width: 100%
+            margin-bottom: 20px
+        &__input-group
+            margin-bottom: 15px
+            &:last-child
+                margin-bottom: 0
+        &__box
+            margin-bottom: 38px
+        &__msg
+            display: flex
+            justify-content: center
+            align-items: center
+            grid-gap: 30px
+            margin-bottom: 35px
+        &__label
+            display: block
+            position: relative
+            width: 136px
+            height: 142px
+            display: flex
+            align-items: center
+            justify-content: center
+            cursor: pointer
+            &__ok
+                display: block
+                position: absolute
+                left: 0
+                top: 0
+                width: 100%
+                height: 100%
+                border-radius: 20px
+            &__input-inner
+                display: none
+                &:checked + .modal-price__label__ok
+                    border: 2px solid #2E9EF4
+        &__text
+            font-weight: bold
+            font-size: 32px
+            line-height: 120%
+            margin-bottom: 30px
+        &__title
+            font-size: 32px
+            line-height: 120%
+            text-transform: uppercase
+            margin: auto
+            margin-bottom: 34px
+            max-width: 460px
+        &__subtitle
+            font-weight: bold
+            font-size: 32px
+            line-height: 120%
+            margin-bottom: 20px
+        &__item
+            font-size: 20px
+            line-height: 120%
+            color: #FFFFFF
+            margin: auto
+            margin-bottom: 20px
+            background: #2E9EF4
+            border-radius: 20px
+            width: 100%
+            max-width: 400px
+            padding: 24px 0
+        &__form
+            max-width: 586px
+            background: url(../img/modal/price/bg.png) no-repeat center/contain
+        &__dialog
+            padding: 55px 120px
+            position: relative
+            background: url(../img/modal/price/img.png) no-repeat calc( 100% - 120px ) calc( 100% - 130px ), #FFFFFF
+            border-radius: 20px
+            width: 100%
+            max-width: 1400px
+        &__close
+            position: absolute
+            top: 40px
+            right: 34px
+            cursor: pointer
     &-cons
         &__form
             width: 100%

@@ -267,6 +267,27 @@
         </section>
         <!-- /.section last -->
 
+        <div class="phone">
+            <img src="img/phone.png" alt="phone">
+        </div>
+    
+        <div class="bar bar--active">
+            <div class="bar__open">ОТКРЫТЬ</div>
+            <div class="bar__close"></div>
+            <div class="bar__item">
+                <img class="bar__item__img" src="img/calc.png" alt="calc">
+                <p class="bar__item__text">расчет <br> стоимости</p>
+            </div>
+            <div class="bar__item">
+                <img class="bar__item__img" src="img/phoneS.png" alt="phone">
+                <p class="bar__item__text">консультация</p>
+            </div>
+            <div class="bar__item">
+                <img class="bar__item__img" src="img/pdf.png" alt="pdf">
+                <p class="bar__item__text">скачать <br> прайс-лист</p>
+            </div>
+        </div>
+
     </main>
 
     <footer class="footer section">
@@ -354,6 +375,55 @@
             </div>
         </div>
     </div>
+
+    <div class="modal modal-price">
+        <div class="modal__container">
+            <div class="modal-price__dialog">
+                <img class="modal-price__close" src="img/close.png" alt="close">
+                <p class="modal-price__subtitle">Не уходите с пустыми руками!</p>
+                <div class="modal-price__item">Получите прямо сейчас</div>
+                <p class="modal-price__title">Полный прайс-каталог на все виды услуг</p>
+                <img src="img/modal/price/imgS.png" alt="document" class="modal-price__img">
+                <form action="#" class="modal-price__form">
+                    <p class="modal-price__text">Вам куда удобнее отправить?</p>
+                    <div class="modal-price__msg">
+                        <label class="modal-price__label">
+                            <img class="modal-price__label__img" src="img/modal/price/whats.png" alt="whatsapp">
+                            <input type="checkbox" class="modal-price__label__input-inner">
+                            <span class="modal-price__label__ok"></span>
+                        </label>
+                        <label class="modal-price__label">
+                            <img class="modal-price__label__img" src="img/modal/price/viber.png" alt="viber">
+                            <input type="checkbox" class="modal-price__label__input-inner">
+                            <span class="modal-price__label__ok"></span>
+                        </label>
+                        <label class="modal-price__label">
+                            <img class="modal-price__label__img" src="img/modal/price/tg.png" alt="telegram">
+                            <input type="checkbox" class="modal-price__label__input-inner">
+                            <span class="modal-price__label__ok"></span>
+                        </label>
+                    </div>
+
+                    <div class="modal-price__box">
+                        <div class="input-group modal-price__input-group">
+                            <input placeholder="Ваше имя" type="text" class="modal-price__input input">
+                        </div>
+                        <div class="input-group modal-price__input-group">
+                            <input placeholder="Ваш телефон" type="tel" class="modal-price__input input">
+                        </div>
+                    </div>
+
+                    <button class="button modal-price__button">Скачать сейчас</button>
+                    <label class="modal-price__polit">
+                        <p class="modal-price__polit__text">Ознакомлен с <a href="#">политикой конфиденциальности</a></p>
+                        <input type="checkbox" class="modal-price__polit__input-inner">
+                        <span class="modal-price__polit__ok"></span>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/script.js"></script>
     
